@@ -99,7 +99,7 @@ const link = split(
   ApolloLink.from([errorLink, uploadLink])
 );
 export const client = new ApolloClient({
-  uri: "http://localhost:3000/graphql",
+  uri: "http://localhost:5001/graphql",
   cache: new InMemoryCache({}),
   credentials: "include",
   headers: {
