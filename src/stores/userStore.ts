@@ -29,7 +29,7 @@ export const useUserStore = create<UserState>()(
         set({
           id: user.id || undefined,
           avatarUrl: user.avatarUrl,
-          fullname: user.fullname,
+          fullname: user.fullName,
           email: user.email,
         }),
     }),
