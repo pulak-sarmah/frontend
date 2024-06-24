@@ -6,7 +6,6 @@ const Home = () => {
     <MainLayout>
       <>
         <Sidebar />
-        Home page
       </>
     </MainLayout>
   );
