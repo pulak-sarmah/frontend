@@ -1,5 +1,7 @@
+import { Flex } from "@mantine/core";
+
 function App() {
-  return <></>;
+  return <Flex justify={"center"}></Flex>;
 }
 
 export default App;
