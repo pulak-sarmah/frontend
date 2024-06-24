@@ -6,7 +6,7 @@ export const LOGIN_USER = gql`
       user {
         email
         id
-        fullname
+        fullName
         avatarUrl
       }
     }

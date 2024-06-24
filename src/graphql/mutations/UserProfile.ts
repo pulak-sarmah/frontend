@@ -1,14 +1,10 @@
 import { gql } from "@apollo/client";
 
 export const UPDATE_PROFILE = gql`
-  mutation UpdateProfile(
-    $fullname: String!
-    $file: Upload
-    $chatroomId: Float
-  ) {
-    updateProfile(fullname: $fullname, file: $file, chatroomId: $chatroomId) {
+  mutation UpdateProfile($fullName: String!, $file: Upload) {
+    updateProfile(fullName: $fullName, file: $file) {
       id
-      fullname
+      fullName
       avatarUrl
     }
   }
